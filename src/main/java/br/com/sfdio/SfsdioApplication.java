@@ -1,13 +1,13 @@
-package br.com.dio.java_basico;
+package br.com.sfdio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JavaBasicoDioApplication {
+public class SfsdioApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JavaBasicoDioApplication.class, args);
+		SpringApplication.run(SfsdioApplication.class, args);
 	}
 
 }

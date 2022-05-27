@@ -1,10 +1,10 @@
-package br.com.dio.java_basico;
+package br.com.sfdio;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JavaBasicoDioApplicationTests {
+class SfsdioApplicationTests {
 
 	@Test
 	void contextLoads() {

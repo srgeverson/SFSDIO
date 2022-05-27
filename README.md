@@ -1,2 +1,0 @@
-# SFSDIO
-Santander Fullstack Developer

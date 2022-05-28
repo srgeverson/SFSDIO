@@ -2,7 +2,7 @@ package br.com.sfdio;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import br.com.sfdio.java_avancado.ReleaseJava10Pratica1;
+import br.com.sfdio.java_avancado.ReleaseJava10Pratica2;
 
 @SpringBootApplication
 public class SfsdioApplication {
@@ -20,7 +20,8 @@ public class SfsdioApplication {
 //		new ServicoNotificacaoEAcompanhandoEnvio(TipoCliente.PJ);
 //		new OtimizacaoDeExecucaoDeListas(true);
 //		new OtimizacaoDeExecucaoDeListas(false);
-		new ReleaseJava10Pratica1();
+//		new ReleaseJava10Pratica1();
+		new ReleaseJava10Pratica2("Geverson", "Souza");
 
 	}
 

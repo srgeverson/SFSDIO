@@ -3,6 +3,8 @@ package br.com.sfdio;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import br.com.sfdio.java_avancado.ExecutorExemplo;
+import br.com.sfdio.java_avancado.ServicoNotificacao;
+import br.com.sfdio.java_avancado.ServicoNotificacao.TipoCliente;
 
 @SpringBootApplication
 public class SfsdioApplication {
@@ -15,6 +17,7 @@ public class SfsdioApplication {
 		//IterandoFuncao.imprimindoNomesFiltradosNovo(nomes);
 		//new CriandoPrimeiraThread(false);
 		new ExecutorExemplo();
+		new ServicoNotificacao(TipoCliente.PF);
 	}
 
 }

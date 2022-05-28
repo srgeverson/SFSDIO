@@ -2,7 +2,7 @@ package br.com.sfdio;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import br.com.sfdio.java_avancado.ReleaseJava10Pratica2;
+import br.com.sfdio.java_avancado.ReleaseJava10Pratica3;
 
 @SpringBootApplication
 public class SfsdioApplication {
@@ -21,8 +21,8 @@ public class SfsdioApplication {
 //		new OtimizacaoDeExecucaoDeListas(true);
 //		new OtimizacaoDeExecucaoDeListas(false);
 //		new ReleaseJava10Pratica1();
-		new ReleaseJava10Pratica2("Geverson", "Souza");
-
+//		new ReleaseJava10Pratica2("Geverson", "Souza");
+		new ReleaseJava10Pratica3();
 	}
 
 }

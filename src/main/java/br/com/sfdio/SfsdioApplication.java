@@ -2,8 +2,7 @@ package br.com.sfdio;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import br.com.sfdio.java_avancado.ServicoNotificacaoEAcompanhandoEnvio;
-import br.com.sfdio.java_avancado.ServicoNotificacaoEAcompanhandoEnvio.TipoCliente;
+import br.com.sfdio.java_avancado.OtimizacaoDeExecucaoDeListas;
 
 @SpringBootApplication
 public class SfsdioApplication {
@@ -18,7 +17,9 @@ public class SfsdioApplication {
 		//new ServicoNotificacao(TipoCliente.PF);
 		//new ServicoNotificacaoEAcompanhandoEnvio(null);
 		//new ServicoNotificacaoEAcompanhandoEnvio(TipoCliente.PF);
-		new ServicoNotificacaoEAcompanhandoEnvio(TipoCliente.PJ);
+		//new ServicoNotificacaoEAcompanhandoEnvio(TipoCliente.PJ);
+		new OtimizacaoDeExecucaoDeListas(true);
+		new OtimizacaoDeExecucaoDeListas(false);
 	}
 
 }

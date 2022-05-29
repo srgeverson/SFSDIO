@@ -2,7 +2,7 @@ package br.com.sfdio;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import br.com.sfdio.java_avancado.ReleaseJava10Pratica3;
+import br.com.sfdio.java_avancado.ReleaseJava11Pratica1;
 
 @SpringBootApplication
 public class SfsdioApplication {
@@ -22,7 +22,13 @@ public class SfsdioApplication {
 //		new OtimizacaoDeExecucaoDeListas(false);
 //		new ReleaseJava10Pratica1();
 //		new ReleaseJava10Pratica2("Geverson", "Souza");
-		new ReleaseJava10Pratica3();
+		var releaseJava11Pratica1 =new ReleaseJava11Pratica1();
+		//releaseJava11Pratica1.atigo();
+		//releaseJava11Pratica1.novo();
+		//Tempo de execução ::15818
+		//releaseJava11Pratica1.connectAkamaiHttp11Client();
+		//Tempo de execução ::5241
+		releaseJava11Pratica1.connectAkamaiHttp2Client();
 	}
 
 }

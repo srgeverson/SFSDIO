@@ -66,6 +66,8 @@ $ spring-boot-devtools
 
 * **Desenvolvimento avançado em Java**
 
+* **Aprenda o que são Estrutura de Dados e Algoritmos**
+
 ## 👨‍💻 Equipe de Desenvolvimento
 
 * **Geverson Souza** - [Geverson Souza](https://www.linkedin.com/in/srgeverson/)

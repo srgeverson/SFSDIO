@@ -2,7 +2,7 @@ package br.com.sfdio;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import br.com.sfdio.java_avancado.InferenciaLambdas;
+import br.com.sfdio.collections_streams.ExemploVector;
 
 @SpringBootApplication
 public class SfsdioApplication {
@@ -29,12 +29,17 @@ public class SfsdioApplication {
 //		//releaseJava11Pratica1.connectAkamaiHttp11Client();
 //		//Tempo de execução ::5241
 //		releaseJava11Pratica1.connectAkamaiHttp2Client();
-		var inferenciaLambdas= new InferenciaLambdas();
+//		var inferenciaLambdas= new InferenciaLambdas();
 //		inferenciaLambdas.dividePor2();
 //		inferenciaLambdas.paravraEBranco();
 //		inferenciaLambdas.pagina();
 //		inferenciaLambdas.valoresLista();
-		inferenciaLambdas.valoresRepete();
+//		inferenciaLambdas.valoresRepete();
+		//var exemploList = new ExemploList();
+//		exemploList.bacico();
+		
+		var exemploVector = new ExemploVector();
+		exemploVector.bacico();
 	}
 
 }

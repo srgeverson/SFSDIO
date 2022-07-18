@@ -68,6 +68,10 @@ $ spring-boot-devtools
 
 * **Aprenda o que são Estrutura de Dados e Algoritmos**
 
+* **Estrutura de Dados**
+
+* **Implementando Collections e Streams com Java**
+
 ## 👨‍💻 Equipe de Desenvolvimento
 
 * **Geverson Souza** - [Geverson Souza](https://www.linkedin.com/in/srgeverson/)

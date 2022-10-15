@@ -2,8 +2,7 @@ package br.com.sfdio;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import br.com.sfdio.collections_streams.ExemploHashSet;
-import br.com.sfdio.collections_streams.ExemploQueue;
+import br.com.sfdio.collections_streams.ExemploLinkedHashSet;
 
 @SpringBootApplication
 public class SfsdioApplication {
@@ -45,8 +44,11 @@ public class SfsdioApplication {
 //		var exemploQueue = new ExemploQueue();
 //		exemploQueue.bacico();
 
-		var exemploSet = new ExemploHashSet();
-		exemploSet.bacico();
+//		var exemploSet = new ExemploHashSet();
+//		exemploSet.bacico();
+		
+		var exemplosLinkedHasSet = new ExemploLinkedHashSet();
+		exemplosLinkedHasSet.bacico();
 	}
 
 }

@@ -2,8 +2,8 @@ package br.com.sfdio;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import br.com.sfdio.collections_streams.ExemploHashSet;
 import br.com.sfdio.collections_streams.ExemploQueue;
-import br.com.sfdio.collections_streams.ExemploVector;
 
 @SpringBootApplication
 public class SfsdioApplication {
@@ -36,14 +36,17 @@ public class SfsdioApplication {
 //		inferenciaLambdas.pagina();
 //		inferenciaLambdas.valoresLista();
 //		inferenciaLambdas.valoresRepete();
-		//var exemploList = new ExemploList();
+		// var exemploList = new ExemploList();
 //		exemploList.bacico();
-		
+
 //		var exemploVector = new ExemploVector();
 //		exemploVector.bacico();
-		
-		var exemploQueue = new ExemploQueue();
-		exemploQueue.bacico();
+
+//		var exemploQueue = new ExemploQueue();
+//		exemploQueue.bacico();
+
+		var exemploSet = new ExemploHashSet();
+		exemploSet.bacico();
 	}
 
 }

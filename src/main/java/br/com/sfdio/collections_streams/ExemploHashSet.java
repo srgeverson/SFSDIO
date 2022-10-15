@@ -22,14 +22,6 @@ public class ExemploHashSet {
 
 		System.out.println(String.format("Depois da remoção: %s", notas));
 
-//		System.out.println(String.format("Primeiro cliente é %s", nomes.peek()));
-
-//		System.out.println(String.format("Depois de mostrar o primeiro cliente: %s", nomes));
-
-		// nomes.clear();
-		// System.out.println(String.format("Primeiro cliente é %s, se item na lista",
-		// nomes.element()));
-
 		System.out.println(String.format("Existe nota? %b", !notas.isEmpty()));
 
 		System.out.println(String.format("Quantidades de notas: %s", notas.size()));
@@ -38,6 +30,5 @@ public class ExemploHashSet {
 		while (iterandoAsNotas.hasNext())
 			System.out.println(String.format("--> %s", iterandoAsNotas.next()));
 
-//		nomes.forEach(nome -> System.out.println(String.format("%s", nome)));
 	}
 }

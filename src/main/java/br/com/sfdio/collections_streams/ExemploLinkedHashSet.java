@@ -18,14 +18,6 @@ public class ExemploLinkedHashSet {
 
 		System.out.println(String.format("Depois da remoção: %s", numeros));
 
-//		System.out.println(String.format("Primeiro cliente é %s", nomes.peek()));
-
-//		System.out.println(String.format("Depois de mostrar o primeiro cliente: %s", nomes));
-
-		// nomes.clear();
-		// System.out.println(String.format("Primeiro cliente é %s, se item na lista",
-		// nomes.element()));
-
 		System.out.println(String.format("Existe nota? %b", !numeros.isEmpty()));
 
 		System.out.println(String.format("Quantidades de notas: %s", numeros.size()));
@@ -34,6 +26,5 @@ public class ExemploLinkedHashSet {
 		while (iterandoOsNumeros.hasNext())
 			System.out.println(String.format("--> %s", iterandoOsNumeros.next()));
 
-//		nomes.forEach(nome -> System.out.println(String.format("%s", nome)));
 	}
 }

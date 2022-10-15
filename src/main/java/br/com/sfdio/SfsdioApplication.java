@@ -2,7 +2,7 @@ package br.com.sfdio;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import br.com.sfdio.collections_streams.ExemploLinkedHashSet;
+import br.com.sfdio.collections_streams.ExemploTreeSet;
 
 @SpringBootApplication
 public class SfsdioApplication {
@@ -47,8 +47,11 @@ public class SfsdioApplication {
 //		var exemploSet = new ExemploHashSet();
 //		exemploSet.bacico();
 		
-		var exemplosLinkedHasSet = new ExemploLinkedHashSet();
-		exemplosLinkedHasSet.bacico();
+//		var exemplosLinkedHasSet = new ExemploLinkedHashSet();
+//		exemplosLinkedHasSet.bacico();
+		
+		var exemploTreeSet = new ExemploTreeSet();
+		exemploTreeSet.bacico();
 	}
 
 }

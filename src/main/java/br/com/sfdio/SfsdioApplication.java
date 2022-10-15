@@ -2,7 +2,7 @@ package br.com.sfdio;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import br.com.sfdio.collections_streams.ExemploTreeSet;
+import br.com.sfdio.collections_streams.ExemploMap;
 
 @SpringBootApplication
 public class SfsdioApplication {
@@ -50,8 +50,12 @@ public class SfsdioApplication {
 //		var exemplosLinkedHasSet = new ExemploLinkedHashSet();
 //		exemplosLinkedHasSet.bacico();
 		
-		var exemploTreeSet = new ExemploTreeSet();
-		exemploTreeSet.bacico();
+//		var exemploTreeSet = new ExemploTreeSet();
+//		exemploTreeSet.bacico();
+		
+		var exemploMap = new ExemploMap();
+		exemploMap.bacico();
+		exemploMap.bacico2();
 	}
 
 }

@@ -2,7 +2,7 @@ package br.com.sfdio;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import br.com.sfdio.collections_streams.ExemploMap;
+import br.com.sfdio.collections_streams.ExemploComparator;
 
 @SpringBootApplication
 public class SfsdioApplication {
@@ -46,16 +46,22 @@ public class SfsdioApplication {
 
 //		var exemploSet = new ExemploHashSet();
 //		exemploSet.bacico();
-		
+
 //		var exemplosLinkedHasSet = new ExemploLinkedHashSet();
 //		exemplosLinkedHasSet.bacico();
-		
+
 //		var exemploTreeSet = new ExemploTreeSet();
 //		exemploTreeSet.bacico();
-		
-		var exemploMap = new ExemploMap();
-		exemploMap.bacico();
-		exemploMap.bacico2();
+
+//		var exemploMap = new ExemploMap();
+//		exemploMap.bacico();
+//		exemploMap.bacico2();
+
+//		var exemploMap = new ExemploMap();
+//		exemploMap.bacico();
+
+		var exemploComparator = new ExemploComparator();
+		exemploComparator.bacico();
 	}
 
 }
